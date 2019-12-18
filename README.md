@@ -24,8 +24,10 @@ vm_size - (Required) Specifies the size of the Virtual Machine.
 A boot_diagnostics block supports the following:
 
 enabled - (Required) Should Boot Diagnostics be enabled for this Virtual Machine?
+---
 
 storage_uri - (Required) The Storage Account's Blob Endpoint which should hold the virtual machine's diagnostic files.
+---
 
 A additional_capabilities block supports the following:
 
