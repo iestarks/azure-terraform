@@ -1,3 +1,5 @@
+###GCP Terraform Network Security Group Module
+
 resource "azurerm_network_security_group" "myterraformnsg" {
     name                = "myNetworkSecurityGroup"
     location            = "eastus"
